@@ -63,14 +63,13 @@ function createProductCard(product, showTitle = true, enableFlip = true) {
 
   if (enableFlip) {
     // Add event listener to flip the card when clicked
-     cards.forEach(card => {
-    card.addEventListener('touchstart', () => {
-      card.classList.toggle('is-flipped');
+    card.addEventListener("click", function () {
+      card.classList.toggle("active");
+      setTimeout(function () {
+        card.classList.toggle("active");
+      }, 3000);
     });
-    card.addEventListener('touchend', () => {
-      card.classList.toggle('is-flipped');
-    });
-     )}
+  }
 
   // Return the card's <div> element to the caller
   return card;
