@@ -70,7 +70,7 @@ function createProductCard(product, showTitle = true, enableFlip = true) {
     card.addEventListener('touchend', () => {
       card.classList.toggle('is-flipped');
     });
-  
+     }
 
   // Return the card's <div> element to the caller
   return card;
