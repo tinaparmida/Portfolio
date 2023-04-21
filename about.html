@@ -1,0 +1,153 @@
+<!--I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+No part of this assessment has been copied manually or electronically from any other source
+(including web sites) except for the information supplied by the WEB222 instructors and / or
+made available in this assessment for my use. I also declare that no part of this assignment has
+been distributed to other students.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Change this to your name-->
+    <meta name="Parmida Khakian Dehkordi" content="Tina" />
+
+    <title>About</title>
+    <!-- Classless CSS Stylesheet - https://oxal.org/projects/sakura/ -->
+    <link rel="stylesheet" href="./css/sakura.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tina Khakian</h1>
+
+      <div>
+        <p style="float: left">Full Stack Developer</p>
+        <p style="float: right">English, فارسی, français</p>
+        <div style="clear: both"></div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Tina-Khakian.pdf" download>Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <style>
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin: 0 1em;
+        position: relative;
+      }
+
+      nav a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      nav a.active,
+      nav a:hover {
+        color: rgb(150, 146, 146);
+      }
+
+      nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #dfcbcb;
+        padding: 0.5em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      nav ul li:hover > ul {
+        display: block;
+      }
+
+      nav ul ul li {
+        margin: 0.5em 0;
+      }
+
+      nav ul ul a {
+        color: #333;
+      }
+
+      nav ul ul a:hover {
+        color: rgb(184, 177, 177);
+      }
+    </style>
+
+    <hr />
+
+    <main>
+      <h2>About</h2>
+      <p>
+        Hi, I'm Tina Khakian, a full-stack developer based in Toronto. I have always had a passion
+        for science and technology. After gaining experience in health administration, I decided I
+        would rather be able to create software solutions. Currently, I am working on expanding my
+        skill set in programming languages such as C, C++, JavaScript, HTML, CSS, and Python. In my
+        free time, you can find me feeding stray animals, playing chess or plane watching.
+      </p>
+
+      <table>
+        <tr>
+          <th>Basic Information</th>
+        </tr>
+        <tr>
+          <td>AGE:</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>EMAIL:</td>
+          <td>tkhakian-dehkordi@myseneca.ca</td>
+        </tr>
+        <tr>
+          <td>LANGUAGES:</td>
+          <td>English, Farsi/Persian, French</td>
+        </tr>
+        <tr>
+          <td>SECTION ID:</td>
+          <td>NDD</td>
+        </tr>
+        <tr>
+          <td>STUDENT ID:</td>
+          <td>133117226</td>
+        </tr>
+        <tr>
+          <td>INSTRUCTOR:</td>
+          <td>Professor Mark Meritt</td>
+        </tr>
+      </table>
+
+      <h3>Academic Declaration</h3>
+      <p>
+        I declare that my assessment is wholly my own work in accordance with Seneca Academic
+        Policy. No part of this assessment has been copied manually or electronically from any other
+        source (including web sites) except for the information supplied by the WEB222 instructors
+        and / or made available in this assessment for my use. I also declare that no part of this
+        assignment has been distributed to other students.
+      </p>
+    </main>
+
+    <!-- JavaScript Data Files -->
+    <script src="./js/categories.js"></script>
+    <script src="./js/attributes.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

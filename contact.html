@@ -1,0 +1,260 @@
+<!--I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+No part of this assessment has been copied manually or electronically from any other source
+(including web sites) except for the information supplied by the WEB222 instructors and / or
+made available in this assessment for my use. I also declare that no part of this assignment has
+been distributed to other students.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/sakura.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tina Khakian</h1>
+      <div>
+        <p style="float: left">Full Stack Developer</p>
+        <p style="float: right">English, فارسی, français</p>
+        <div style="clear: both"></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="Tina-Khakian.pdf" download>Resume</a></li>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <style>
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin: 0 1em;
+        position: relative;
+      }
+
+      nav a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      nav a.active,
+      nav a:hover {
+        color: rgb(151, 132, 132);
+      }
+
+      nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        padding: 0.5em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      nav ul li:hover > ul {
+        display: block;
+      }
+
+      nav ul ul li {
+        margin: 0.5em 0;
+      }
+
+      nav ul ul a {
+        color: #333;
+      }
+
+      nav ul ul a:hover {
+        color: rgb(165, 144, 144);
+      }
+      .container {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid rgb(130, 226, 157);
+        overflow: auto;
+      }
+      .form {
+        float: left;
+        width: 60px;
+        margin-right: 20px; 
+         padding: 0.5em;
+  margin: 0.5em 0 0.5em;
+      }
+      .image {
+        float: right;
+        width: 67%;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+     
+        
+      input[type="radio"] {
+  display: none;
+}
+
+label[for="question"]::before,
+label[for="comment"]::before,
+label[for="hiring"]::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+input[type="radio"]:checked + label::before {
+  background-color: rgb(85, 135, 68);
+}
+#hourly-rate {
+  margin-top: 0em;
+}
+label[for="message"] {
+  margin-top: 4em;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  float: right;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+    </style>
+
+    <hr />
+    <main>
+      <h1>Contact</h1>
+      <p>
+        Don't hesitate to get in touch if you're interested in collaborating, making a friend, or a
+        having chess match!
+      </p>
+      <div class="container">
+        <div class="image">
+          <img src="https://images.unsplash.com/photo-1618277779512-fbe781205465?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJlZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="tree of thought" />
+        </div>
+        <form id="myForm" action="https://httpbin.org/post" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required />
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" list="cities" required />
+          <datalist id="cities">
+            <option value="Toronto"></option>
+            <option value="Montreal"></option>
+            <option value="Vancouver"></option>
+            <option value="Calgary"></option>
+            <option value="Edmonton"></option>
+            <option value="Ottawa"></option>
+            <option value="Quebec City"></option>
+            <option value="Halifax"></option>
+            <option value="Winnipeg"></option>
+          </datalist>
+       
+        
+          <label for="postal-code">Postal Code:</label>
+          <input type="text" id="postal-code" name="postal-code" pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d" required />
+        
+          <label for="about">What is this about?</label>
+          <input type="radio" id="question" name="about" value="Question" required>
+          <label for="question">Question</label>
+          <input type="radio" id="comment" name="about" value="Comment" required>
+          <label for="comment">Comment</label>
+          <input type="radio" id="hiring" name="about" value="Hiring" required>
+          <label for="hiring">Hiring</label>
+          
+         <div id="hourly-rate" style="display: none">
+            <label for="rate">Hourly Rate:</label>
+            <input type="number" id="rate" name="rate" min="1" max="1000" required />
+          </div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        
+          <button type="submit">Submit</button>
+        </form>
+        
+    </main>
+    <footer>
+      <!-- JavaScript Data Files -->
+      <script src="./js/categories.js"></script>
+      <script src="./js/attributes.js"></script>
+
+      <!-- Main App JavaScript File -->
+      <script src="./js/app.js"></script>
+      <script>
+const form = document.getElementById('myForm');
+const hiringRadio = document.getElementById('hiring');
+const hourlyRateDiv = document.getElementById('hourly-rate');
+
+const radioGroup = document.getElementsByName('about');
+for (let i = 0; i < radioGroup.length; i++) {
+  radioGroup[i].addEventListener('click', () => {
+    if (radioGroup[i].value === 'Hiring') {
+      hourlyRateDiv.style.display = 'block';
+      const rateInput = hourlyRateDiv.querySelector('#rate');
+      rateInput.required = true;
+    } else {
+      hourlyRateDiv.style.display = 'none';
+      const rateInput = hourlyRateDiv.querySelector('#rate');
+      rateInput.required = false;
+    }
+  });
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  console.log('Form submitted!');
+  form.reset();
+});
+
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  console.log('Form submitted!');
+  form.reset();
+});
+
+
+      </script>
+      <p>&copy; 2023 TK</p>
+    </footer>
+  </body>
+</html>
