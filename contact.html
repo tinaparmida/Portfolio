@@ -101,13 +101,13 @@ been distributed to other students.-->
       .image {
         float: right;
         width: 67%;
-      }
-      img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-     
+     display: none;
+     /* Show the image if the screen width is greater than 600px */
+@media only screen and (min-width: 600px) {
+  .image {
+    display: block; /* show the image if the screen is wide enough */
+  }
+}
         
       input[type="radio"] {
   display: none;
