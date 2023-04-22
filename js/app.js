@@ -67,7 +67,7 @@ function createProductCard(product, showTitle = true, enableFlip = true) {
       card.classList.toggle("active");
       setTimeout(function () {
         card.classList.toggle("active");
-      }, 3000);
+      }, 5000);
     });
   }
 
