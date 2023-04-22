@@ -64,7 +64,7 @@ window.products = [
 
     categories: ["education"],
     imageUrl:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHl0aG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+      "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     id: "A7",
