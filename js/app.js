@@ -73,7 +73,7 @@ function createHomeProductCard(product) {
   productImage.alt = product.title;
   productImage.classList.add("home-card-image");
   productImage.style.width = "200px";
-  productImage.style.height = "232.51px";
+  productImage.style.height = "200px";
   card.appendChild(productImage);
 
   // Return the card's <div> element to the caller
@@ -85,7 +85,7 @@ function displayAllProducts() {
   productContainer.innerHTML = "";
   for (let i = 0; i < products.length; i++) {
     const product = products[i];
-    const card = createHomeProductCard(product);
+    const card = createProductCard(product, false, false);
     productContainer.appendChild(card);
   }
 }
