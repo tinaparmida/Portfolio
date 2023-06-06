@@ -85,7 +85,7 @@ function displayAllProducts() {
   productContainer.innerHTML = "";
   for (let i = 0; i < products.length; i++) {
     const product = products[i];
-    const card = createProductCard(product, false, false);
+    const card = createHomeProductCard(product);
     productContainer.appendChild(card);
   }
 }
