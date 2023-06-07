@@ -9,7 +9,7 @@ window.products = [
     id: "A1",
     title: "GitHub",
     description:
-      "Through working on large scale programming projects, I have gained proficiency in Git version control. I am experience collaborating on software projects using GitHub. I am familiar with GitHub features such as pull requests and code reviews.",
+"As an experienced software developer, I possess advanced skills in utilizing Git version control for managing large-scale programming projects. I am well-versed in leveraging its powerful features such as pull requests and code reviews. With a deep understanding of Git workflows and best practices, I ensure smooth team collaboration and efficient project management through this industry-standard platform.",
 
     categories: ["skills"],
     imageUrl:
@@ -19,7 +19,7 @@ window.products = [
     id: "A2",
     title: "Javascript",
     description:
-      "I have experience developing web applications and interactive user interfaces using JavaScript. This gives me a strong understanding of fundamental concepts such as variables, data types, control structures, functions, and event handling.",
+      ". My expertise encompasses the fundamental concepts of JavaScript, including variables, data types, control structures, functions, and event handling. Leveraging my proficiency in JavaScript, I have successfully developed engaging web applications, harnessing the language's potential to enhance user experiences and create intuitive and responsive interfaces.",
 
     categories: ["skills"],
     imageUrl:
@@ -27,9 +27,9 @@ window.products = [
   },
   {
     id: "A3",
-    title: "MySQL",
+    title: "SQL",
     description:
-      "I am skilled in designing and implementing MySQL databases. I am proficient in writing optimized SQL queries for data retrieval and manipulation, and comfortable implementing business rules to design and create normalized databases.",
+      "I excel in designing and implementing efficient and well-structured SQL databases. My expertise extends to writing optimized SQL queries for data retrieval and manipulation, as well as implementing business rules and ensuring the creation of normalized databases.",
 
     categories: ["skills"],
     imageUrl:
@@ -39,8 +39,7 @@ window.products = [
     id: "A4",
     title: "Python",
     description:
-      "Thus far, I have limited experience developing applications and software using Python. However, I can comfortably create small projects with understanding of fundamental concepts such as variables, data types, control structures, functions, and modules.",
-
+"With my strong foundation in programming, I have honed my skills in Python, a versatile and widely used language in software development. Although I have primarily focused on smaller-scale projects, my expertise in Python encompasses essential concepts such as variables, data types, control structures, functions, and modules. I continue to expand my knowledge and apply Python in diverse contexts to tackle complex challenges."
     categories: ["skills"],
     imageUrl:
       "https://images.unsplash.com/photo-1538439907460-1596cafd4eff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHl0aG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
@@ -90,7 +89,7 @@ window.products = [
     id: "A10",
     title: "C, C++",
     description:
-      "I am experienced in developing applications and software using C and C++. C++ in particular has given me a strong understanding of object-oriented programming (OOP) concepts such as classes, inheritance, polymorphism, and templates.",
+      "I possess advanced expertise in C and C++. My in-depth understanding of these languages extends to low-level control, high-performance optimization, and advanced features such as templates, smart pointers, and operator overloading. With a focus on memory management and performance, I develop robust software systems.",
 
     categories: ["skills"],
     imageUrl:
@@ -126,5 +125,33 @@ window.products = [
     categories: ["hobbies"],
     imageUrl:
       "https://images.unsplash.com/photo-1615000363959-e52262d2c75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwY2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-  }
+  },
+  {
+    id: "A18",
+    title: "Botany",
+    description:
+      " I have a deep love for plants and their intricate beauty. I enjoy studying their growth patterns, understanding their diverse species, and discovering their unique adaptations to the environment. From exploring the vibrant colors of flowers to uncovering the secrets of photosynthesis, the world of plants never ceases to fascinate me."
+    categories: ["hobbies"],
+    imageUrl:
+"https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+},
+  {
+    id: "A19",
+    title: "Yoga",
+    description:
+      "Through the practice of yoga, I find harmony between my mind, body, and soul. The practice of yoga goes beyond the physical postures; it encompasses breathwork, meditation, and mindfulness, allowing me to connect with my inner self and embrace a state of tranquility."
+    categories: ["hobbies"],
+    imageUrl:
+"https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHlvZ2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    id: "A20",
+    title: "Travel",
+    description:
+      "Travel is my ultimate passion, and I yearn for new adventures and exploration. I believe that stepping out of our comfort zones and immersing ourselves in different cultures and environments expands our horizons and broadens our perspectives. I cherish the connections made with people from diverse backgrounds and the profound lessons learned along the way."
+    categories: ["hobbies"],
+    imageUrl:
+"https://images.unsplash.com/photo-1502301197179-65228ab57f78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=685&q=80"
+  }, 
+  
 ];
