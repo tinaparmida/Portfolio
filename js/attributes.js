@@ -139,7 +139,7 @@ window.products = [
     title: "ASP.NET",
     description:
       "With ASP.NET, I can build dynamic websites, web applications, and web services using languages like C# and Visual Basic.NET. I am experienced in utilizing the various features and tools provided by ASP.NET to create robust and scalable web solutions.",
-    categories: ["hobbies"],
+    categories: ["skills"],
     imageUrl:
       "https://images.unsplash.com/photo-1583146191066-dd148554b72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljcm9zb2Z0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
   },  {
@@ -147,7 +147,7 @@ window.products = [
     title: "Jira",
     description:
       "With Jira's comprehensive project management features, I can effectively manage and complete projects. The customizable workflows in Jira allow me to tailor the project management process to specific project requirements, ensuring a smooth and efficient workflow.",
-    categories: ["hobbies"],
+    categories: ["skills"],
     imageUrl:
 "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2FuYmFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
   },  {
