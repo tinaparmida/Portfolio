@@ -150,15 +150,7 @@ window.products = [
     categories: ["skills"],
     imageUrl:
 "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2FuYmFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-  },  {
-    id: "A18",
-    title: "Yoga",
-    description:
-      "Through the practice of yoga, I find harmony between my mind, body, and soul. The practice of yoga goes beyond the physical postures; it encompasses breathwork, meditation, and mindfulness, allowing me to connect with my inner self and embrace a state of tranquility.",
-    categories: ["hobbies"],
-    imageUrl:
-"https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHlvZ2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-  },
+  }, 
   {
     id: "A18",
     title: "Botany",
@@ -186,7 +178,7 @@ window.products = [
     imageUrl:
 "https://images.unsplash.com/photo-1502301197179-65228ab57f78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=685&q=80"
   },   {
-    id: "A20",
+    id: "A21",
     title: "DevOps",
     description:
       "I thrive on bridging the gap between development and operations to streamline software delivery and enhance organizational efficiency. By embracing the DevOps philosophy, I enable agile development cycles, faster time-to-market, and improved scalability for software products and services.",
@@ -194,13 +186,21 @@ window.products = [
     imageUrl:
 "https://images.unsplash.com/photo-1631624210938-539575f92e3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGV2b3BzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
   },  {
-    id: "A20",
+    id: "A22",
     title: "Azure",
     description:
       "With proficiency in Azure's extensive suite of services, I architect and deploy cloud-based applications, manage virtual machines, and configure networking and storage resources. Harnessing the power of Azure's AI and machine learning capabilities, I develop intelligent solutions that drive innovation.",
     categories: ["skills"],
     imageUrl:
 "https://images.unsplash.com/photo-1549834174-30a98d600e5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXp1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+  }, {id: "A23",
+    title: "Cat mom",
+    description:
+      "I have immense love for animals and am passionate about animal welfare. I have a lovely cat named Tsuki who I rescued from the shelter when he was just 2 months old. I can't believe he will be turning 3 years old (that's 21 human years!) this coming August!",
+
+    categories: ["hobbies"],
+    imageUrl:
+      "https://images.unsplash.com/photo-1615000363959-e52262d2c75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwY2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   
 ];
