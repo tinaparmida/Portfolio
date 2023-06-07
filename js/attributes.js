@@ -5,11 +5,21 @@ attributes.js
  */
 
 window.products = [
+    {
+    id: "A0",
+    title: "SCRUM",
+    description:
+"Experienced in implementing the Scrum framework for efficient software project management, ensuring timely delivery and effective team collaboration. By leveraging Scrum's iterative and incremental approach, I ensure that projects are delivered in a timely and efficient manner.",
+
+    categories: ["skills"],
+    imageUrl:
+      "https://images.unsplash.com/photo-1541960071727-c531398e7494?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2NydW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+  },
   {
     id: "A1",
     title: "GitHub",
     description:
-"As an experienced software developer, I possess advanced skills in utilizing Git version control for managing large-scale programming projects. I am well-versed in leveraging its powerful features such as pull requests and code reviews. With a deep understanding of Git workflows and best practices, I ensure smooth team collaboration and efficient project management through this industry-standard platform.",
+"As an experienced software developer, I possess advanced skills in utilizing Git version control for managing large-scale programming projects. I am well-versed in leveraging its powerful features such as pull requests and code reviews. With a deep understanding of Git workflows and best practices, I ensure smooth team collaboration and efficient project management.",
 
     categories: ["skills"],
     imageUrl:
@@ -74,6 +84,14 @@ window.products = [
     categories: ["skills"],
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661679327649-365865b01020?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amF2YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+  },  {
+    id: "A8",
+    title: "Linux/Unix",
+    description:
+      "I am Proficient in Linux/Unix systems, with a deep understanding of their architecture, command-line interface, and administration. Skilled in performing various tasks, such as system configuration, package management, scripting, and troubleshooting.",
+    categories: ["skills"],
+    imageUrl:
+"https://images.unsplash.com/photo-1554921027-b91f0beeb07d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2xkJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     id: "A9",
@@ -118,13 +136,28 @@ window.products = [
 
   {
     id: "A16",
-    title: "Cat mom",
+    title: "ASP.NET",
     description:
-      "I have immense love for animals and am passionate about animal welfare. I have a lovely cat named Tsuki who I rescued from the shelter when he was just 2 months old. I can't believe he will be turning 3 years old (that's 21 human years!) this coming August!",
-
+      "With ASP.NET, I can build dynamic websites, web applications, and web services using languages like C# and Visual Basic.NET. I am experienced in utilizing the various features and tools provided by ASP.NET to create robust and scalable web solutions.",
     categories: ["hobbies"],
     imageUrl:
-      "https://images.unsplash.com/photo-1615000363959-e52262d2c75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwY2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      "https://images.unsplash.com/photo-1583146191066-dd148554b72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljcm9zb2Z0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  },  {
+    id: "A17",
+    title: "Jira",
+    description:
+      "With Jira's comprehensive project management features, I can effectively manage and complete projects. The customizable workflows in Jira allow me to tailor the project management process to specific project requirements, ensuring a smooth and efficient workflow.",
+    categories: ["hobbies"],
+    imageUrl:
+"https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2FuYmFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  },  {
+    id: "A18",
+    title: "Yoga",
+    description:
+      "Through the practice of yoga, I find harmony between my mind, body, and soul. The practice of yoga goes beyond the physical postures; it encompasses breathwork, meditation, and mindfulness, allowing me to connect with my inner self and embrace a state of tranquility.",
+    categories: ["hobbies"],
+    imageUrl:
+"https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHlvZ2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     id: "A18",
