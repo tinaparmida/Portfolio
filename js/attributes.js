@@ -130,7 +130,7 @@ window.products = [
     id: "A18",
     title: "Botany",
     description:
-      " I have a deep love for plants and their intricate beauty. I enjoy studying their growth patterns, understanding their diverse species, and discovering their unique adaptations to the environment. From exploring the vibrant colors of flowers to uncovering the secrets of photosynthesis, the world of plants never ceases to fascinate me."
+      " I have a deep love for plants and their intricate beauty. I enjoy studying their growth patterns, understanding their diverse species, and discovering their unique adaptations to the environment. From exploring the vibrant colors of flowers to uncovering the secrets of photosynthesis, the world of plants never ceases to fascinate me.",
     categories: ["hobbies"],
     imageUrl:
 "https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
@@ -139,8 +139,8 @@ window.products = [
     id: "A19",
     title: "Yoga",
     description:
-      "Through the practice of yoga, I find harmony between my mind, body, and soul. The practice of yoga goes beyond the physical postures; it encompasses breathwork, meditation, and mindfulness, allowing me to connect with my inner self and embrace a state of tranquility."
-    categories: ["hobbies"],
+      "Through the practice of yoga, I find harmony between my mind, body, and soul. The practice of yoga goes beyond the physical postures; it encompasses breathwork, meditation, and mindfulness, allowing me to connect with my inner self and embrace a state of tranquility.",
+    categories: ["hobbies"],,
     imageUrl:
 "https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHlvZ2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   },
