@@ -29,7 +29,7 @@ window.products = [
     id: "A2",
     title: "Javascript",
     description:
-      "My expertise encompasses the fundamental concepts of JavaScript. Leveraging my proficiency in JavaScript, I have successfully developed engaging web applications, harnessing the language's potential to enhance user experiences and create intuitive and responsive interfaces.",
+      "My expertise encompasses the fundamental concepts of JavaScript. Leveraging my proficiency in JavaScript, I have successfully developed engaging web applications, harnessing the language's potential to enhance user experiences.",
 
     categories: ["skills"],
     imageUrl:
@@ -185,6 +185,22 @@ window.products = [
     categories: ["hobbies"],
     imageUrl:
 "https://images.unsplash.com/photo-1502301197179-65228ab57f78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=685&q=80"
-  }, 
+  },   {
+    id: "A20",
+    title: "DevOps",
+    description:
+      "I thrive on bridging the gap between development and operations to streamline software delivery and enhance organizational efficiency. By embracing the DevOps philosophy, I enable agile development cycles, faster time-to-market, and improved scalability for software products and services.",
+    categories: ["skills"],
+    imageUrl:
+"https://images.unsplash.com/photo-1631624210938-539575f92e3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGV2b3BzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  },  {
+    id: "A20",
+    title: "Azure",
+    description:
+      "With proficiency in Azure's extensive suite of services, I architect and deploy cloud-based applications, manage virtual machines, and configure networking and storage resources. Harnessing the power of Azure's AI and machine learning capabilities, I develop intelligent solutions that drive innovation.",
+    categories: ["skills"],
+    imageUrl:
+"https://images.unsplash.com/photo-1549834174-30a98d600e5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXp1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+  },
   
 ];
