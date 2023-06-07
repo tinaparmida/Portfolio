@@ -163,7 +163,7 @@ window.products = [
     id: "A18",
     title: "Botany",
     description:
-      " I have a deep love for plants and their intricate beauty. I enjoy studying their growth patterns, understanding their diverse species, and discovering their unique adaptations to the environment.  I find solace in nurturing my own garden and witnessing the transformation of tiny seeds into flourishing plants.",
+      " I have a deep love for plants and their intricacy. I enjoy studying their growth patterns and discovering their unique adaptations to the environment. I find solace in nurturing my own garden and witnessing the transformation of tiny seeds into flourishing plants.",
     categories: ["hobbies"],
     imageUrl:
 "https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
