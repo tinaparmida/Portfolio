@@ -19,7 +19,7 @@ window.products = [
     id: "A2",
     title: "Javascript",
     description:
-      ". My expertise encompasses the fundamental concepts of JavaScript, including variables, data types, control structures, functions, and event handling. Leveraging my proficiency in JavaScript, I have successfully developed engaging web applications, harnessing the language's potential to enhance user experiences and create intuitive and responsive interfaces.",
+      "My expertise encompasses the fundamental concepts of JavaScript, including variables, data types, control structures, functions, and event handling. Leveraging my proficiency in JavaScript, I have successfully developed engaging web applications, harnessing the language's potential to enhance user experiences and create intuitive and responsive interfaces.",
 
     categories: ["skills"],
     imageUrl:
@@ -39,7 +39,7 @@ window.products = [
     id: "A4",
     title: "Python",
     description:
-"With my strong foundation in programming, I have honed my skills in Python, a versatile and widely used language in software development. Although I have primarily focused on smaller-scale projects, my expertise in Python encompasses essential concepts such as variables, data types, control structures, functions, and modules. I continue to expand my knowledge and apply Python in diverse contexts to tackle complex challenges."
+"With my strong foundation in programming, I have honed my skills in Python, a versatile and widely used language in software development. My expertise in Python encompasses essential concepts such as variables, data types, control structures, functions, and modules. I continue to expand my knowledge and apply Python in diverse contexts to tackle complex challenges.",
     categories: ["skills"],
     imageUrl:
       "https://images.unsplash.com/photo-1538439907460-1596cafd4eff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHl0aG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
