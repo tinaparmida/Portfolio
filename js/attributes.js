@@ -148,7 +148,7 @@ window.products = [
     id: "A20",
     title: "Travel",
     description:
-      "Travel is my ultimate passion, and I yearn for new adventures and exploration. I believe that stepping out of our comfort zones and immersing ourselves in different cultures and environments expands our horizons and broadens our perspectives. I cherish the connections made with people from diverse backgrounds and the profound lessons learned along the way."
+      "Travel is my ultimate passion, and I yearn for new adventures and exploration. I believe that stepping out of our comfort zones and immersing ourselves in different cultures and environments expands our horizons and broadens our perspectives. I cherish the connections made with people from diverse backgrounds and the profound lessons learned along the way.",
     categories: ["hobbies"],
     imageUrl:
 "https://images.unsplash.com/photo-1502301197179-65228ab57f78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=685&q=80"
