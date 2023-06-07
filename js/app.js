@@ -112,30 +112,41 @@ function displayCategory(category) {
 }
 
 document.getElementById("skills").addEventListener("click", function () {
-  document.getElementById("category-products").style.display = "table";
+  const homeSection = document.querySelector(".welcome-section");
+  const categoryProducts = document.getElementById("category-products");
 
-  // Loop through the products array and create a card for each product
+  homeSection.style.display = "none";
+  categoryProducts.style.display = "table";
 
   displayCategory("skills");
 });
 
 document.getElementById("education").addEventListener("click", function () {
-  document.getElementById("category-products").style.display = "table";
+  const homeSection = document.querySelector(".welcome-section");
+  const categoryProducts = document.getElementById("category-products");
 
-  // Loop through the products array and create a card for each product
+  homeSection.style.display = "none";
+  categoryProducts.style.display = "table";
 
   displayCategory("education");
 });
 
 document.getElementById("hobbies").addEventListener("click", function () {
-  document.getElementById("category-products").style.display = "table";
+  const homeSection = document.querySelector(".welcome-section");
+  const categoryProducts = document.getElementById("category-products");
 
-  // Loop through the products array and create a card for each product
+  homeSection.style.display = "none";
+  categoryProducts.style.display = "table";
 
   displayCategory("hobbies");
 });
 
 document.getElementById("home").addEventListener("click", function () {
-  document.getElementById("category-products").style.display = "table";
+  const homeSection = document.querySelector(".welcome-section");
+  const categoryProducts = document.getElementById("category-products");
+
+  homeSection.style.display = "block";
+  categoryProducts.style.display = "none";
+
   displayAllProducts();
 });
