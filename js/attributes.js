@@ -140,7 +140,7 @@ window.products = [
     title: "Yoga",
     description:
       "Through the practice of yoga, I find harmony between my mind, body, and soul. The practice of yoga goes beyond the physical postures; it encompasses breathwork, meditation, and mindfulness, allowing me to connect with my inner self and embrace a state of tranquility.",
-    categories: ["hobbies"],,
+    categories: ["hobbies"],
     imageUrl:
 "https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHlvZ2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   },
