@@ -194,7 +194,7 @@ window.products = [
     imageUrl:
 "https://images.unsplash.com/photo-1549834174-30a98d600e5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXp1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   }, {id: "A23",
-    title: "Cat mom",
+    title: "Zoophilist",
     description:
       "I have immense love for animals and am passionate about animal welfare. I have a lovely cat named Tsuki who I rescued from the shelter when he was just 2 months old. I can't believe he will be turning 3 years old (that's 21 human years!) this coming August!",
 
